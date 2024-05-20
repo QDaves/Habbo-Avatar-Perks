@@ -1,0 +1,47 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+"manifest_version": 3,
+"name": "Habbo Avatar Perks",
+"version": "0.9",
+"description": "Get HC and BC Perks for all nine Habbo Server without having to own any Habbo Collectibles.",
+"icons": {
+  "48": "logo.png"
+},
+  "host_permissions": [
+    "https://*.habbo.com/*",
+    "https://*.habbo.com.tr/*",
+    "https://*.habbo.com.br/*",
+    "https://*.habbo.fi/*",    
+    "https://*.habbo.es/*",
+    "https://*.habbo.de/*",
+    "https://*.habbo.fr/*",
+    "https://*.habbo.it/*",
+    "https://*.habbo.nl/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://habbo.com/*",
+        "https://www.habbo.com/*",
+        "https://habbo.com.tr/*",
+        "https://www.habbo.com.tr/*",
+        "https://habbo.com.br/*",
+        "https://www.habbo.com.br/*",
+        "https://habbo.fi/*",
+        "https://www.habbo.fi/*",
+        "https://habbo.es/*",
+        "https://www.habbo.es/*",
+        "https://habbo.de/*",
+        "https://www.habbo.de/*",
+        "https://habbo.fr/*",
+        "https://www.habbo.fr/*", 
+        "https://habbo.it/*",
+        "https://www.habbo.it/*",
+        "https://habbo.nl/*",
+        "https://www.habbo.nl/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
