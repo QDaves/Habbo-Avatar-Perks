@@ -1,6 +1,7 @@
 Get HC and BC Perks for all nine Habbo Server without having to own any Habbo Collectibles.
 
 Habbo Avatar Perks Extension
+https://chromewebstore.google.com/detail/habbo-avatar-perks/noohnadfhpflkbdjkoomonlbjfkbmgfb?hl=en&authuser=0
 
 The Habbo Avatar Perks extension is a tool that allows users to gain access to premium avatar features and benefits on Habbo Hotel websites without owning the required Collectibles.
 
